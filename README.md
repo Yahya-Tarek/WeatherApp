@@ -1,16 +1,31 @@
-# weatherapp
+# WeatherApp
+Overview
+This Flutter application provides real-time weather information based on the user's current location. It utilizes the GetX library for state management, Dio for API calls, and adheres to clean code and architectural principles.
 
-A new Flutter project.
+Features
+User Interface:
 
-## Getting Started
+Simple and intuitive design with two screens: home screen for current weather and details screen for more information.
+Displays temperature, weather condition, humidity, and wind speed with corresponding images for each forecast condition.
+Responsive UI for different screen sizes.
+Data Source:
 
-This project is a starting point for a Flutter application.
+Utilizes the OpenWeatherMap API for fetching weather data.
+GetX Implementation:
 
-A few resources to get you started if this is your first Flutter project:
+State management using GetX.
+Reactive state updates for real-time weather information.
+Navigation between home and details screens implemented using GetX.
+Dio Integration:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Dio library for making network requests to fetch weather data from the API.
+Graceful handling of API responses and errors.
+Clean Code:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Meaningful variable and function names.
+Proper error handling and logging.
+Architecture:
+
+Follows the MVC (Model-View-Controller) architecture pattern.
+Codebase organized into layers: model, view, controller, services.
+Ensures separation of concerns and modularity.
